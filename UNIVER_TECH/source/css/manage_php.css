@@ -1,0 +1,33 @@
+form{
+    padding: 50px 30px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+form label{
+     font-size: 1.3rem;
+     text-align: left;
+}
+
+form input, button{
+    font-size: 1.1rem;
+    padding: 5px 20px;
+    font-family: "Cambria";
+    text-transform: capitalize;
+    min-width: 300px;
+}
+
+form button{
+    background: #001428;
+    color: #d4e2ff;
+    margin: 10px;
+}

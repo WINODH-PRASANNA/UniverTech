@@ -1,0 +1,85 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #001428;
+    align-items: center;
+}
+
+.nav img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.nav .item{
+    display: flex;
+    gap: 30px;
+}
+
+.item li{
+    color: #d4e2ff;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.item li a{
+    color: #d4e2ff;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.head h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #001428;
+}
+
+.head h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #001428;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 20px;
+    border: 2px solid #001428;
+}
+
+.body h2, .mess h2{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #001428;
+    padding: 5px;
+}
+
+.body h2 span{
+    text-transform: none;
+    color: #d4e2ff;
+    padding-left: 10px;
+}
+
+.mess p{
+    font-size: 1.3rem;
+    padding-left: 30px;
+    text-transform: none;
+    color: #d4e2ff;
+}

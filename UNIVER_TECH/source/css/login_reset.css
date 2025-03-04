@@ -1,0 +1,9 @@
+.right {
+    overflow: auto;
+}
+
+form {
+    max-height: 400px;
+    overflow: auto;
+    padding-right: 10px;
+}

@@ -1,0 +1,90 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #001428;
+    align-items: center;
+}
+
+.nav img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.nav .item{
+    display: flex;
+    gap: 30px;
+}
+
+.item li{
+    color: #d4e2ff;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.item li a{
+    color: #d4e2ff;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.head h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #001428;
+}
+
+.head h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #001428;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border: 2px solid #001428;
+    padding: 30px 50px;
+    margin: 20px 50px;
+}
+
+.box img{
+    height: 200px;
+    width: 200px;
+    margin-right: 40px;
+}
+
+.box .right{
+    display: flex;
+    flex-direction: column;
+    color: #001428;
+}
+
+.right h1{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding-bottom: 20px;
+    color: #d4e2ff;
+}
+
+.right p{
+    font-size: 1.5rem;
+}

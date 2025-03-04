@@ -1,0 +1,111 @@
+.nav{
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+    background: #001428;
+}
+
+.logo img{
+    display: block;
+    height: 50px;
+    width: 50px;
+    animation: spin 5s linear infinite;
+}
+
+.items{
+    display: flex;
+    gap: 30px;
+}
+
+.items li{
+    display: flex;
+    text-transform: capitalize;
+}
+
+.items li a{
+    color: #d4e2ff;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.profile{
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    min-width: 60vw;
+}
+
+.left{
+    display: flex;
+}
+
+.left img{
+    height: 200px;
+    width: 200px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.right h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #001428;
+}
+
+.right h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #001428;
+    padding-bottom: 20px;
+}
+
+.profile h2 span{
+    color: #d4e2ff;
+}
+
+.right .cont{
+    display: flex;
+    gap: 50px;
+}
+
+.cont p{
+    font-size: 1.5rem;
+    color: #001428;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.cont p span{
+    color: #d4e2ff;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.right h3{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #001428;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.right h3 span{
+    color: #d4e2ff;
+    text-transform: none;
+}

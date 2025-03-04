@@ -1,0 +1,177 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #001428;
+    align-items: center;
+}
+
+.nav img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.nav .item{
+    display: flex;
+    gap: 30px;
+}
+
+.item li{
+    color: #d4e2ff;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.item li a{
+    color: #d4e2ff;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+    padding-bottom: 50px;
+}
+
+.text h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: #001428;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.text h2{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #001428;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.text p{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #d4e2ff;
+    font-weight: 500;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.message{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    background: #becaf5;
+    gap: 500px;
+}
+
+.message .left{
+    display: flex;
+    flex-direction: column;
+}
+
+.left h2{
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    color: #001428;
+    padding-bottom: 15px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub{
+    padding-bottom: 20px;
+}
+
+.sub h1{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #001428;
+    font-weight: 800;
+}
+
+.sub p{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #001428;
+    padding-left: 20px;
+}
+
+.right form{
+    display: flex;
+    flex-direction: column;
+}
+
+form h1{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #001428;
+    padding-bottom: 15px;
+}
+
+form .input-grp{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-grp input{
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    font-family: "Cambria";
+    min-width: 400px;
+    align-items: center;
+    border-radius: 10px;
+    text-transform: capitalize;
+    background: #d4e2ff;
+}
+
+.btn{
+    color: #d4e2ff;
+    font-size: 1.2rem;
+    font-family: "Cambria";
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #001428;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+footer{
+    background: #001428;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+footer p{
+    font-size: 1.3rem;
+    color: #d4e2ff;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    text-transform: uppercase;
+}

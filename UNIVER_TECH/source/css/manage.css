@@ -1,0 +1,159 @@
+body{
+    background: #d4e2ff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #becaf5;
+}
+
+.left h1{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: #0030d5;
+}
+
+.right{
+    display: flex;
+    gap: 30px;
+}
+
+.btn{
+    background: #becaf5;
+    font-size: 1.3rem;
+    padding: 8px 20px;
+    border: 2px solid #001428;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    min-width: 150px;
+    text-transform: capitalize;
+    color: #001428;
+    font-family: "Cambria";
+    font-weight: 600;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    &:after{
+        content: '';
+        display: block;
+        width: 50px;
+        height: 3px;
+        background-color: #333;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+}
+
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.search .add{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #becaf5;
+    min-width: 300px;
+    border: 2px solid #001428;
+    border-radius: 10px;
+    padding: 10px 20px;
+    justify-content: center;
+}
+
+.search .add img{
+    height: 30px;
+    width: 30px;
+}
+
+.search .add p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-left: 20px;
+    color: #001428;
+}
+
+.search input{
+    background: #becaf5;
+    min-width: 300px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: 2px solid #001428;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #001428;
+}
+
+.search input::placeholder{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+
+.table{
+    display: flex;
+    margin: 20px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.table table{   
+    background: #becaf5;
+    border: 2px solid #001428;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+}
+
+.table td, th {
+    border: 2px solid #001428;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;text-transform: capitalize;
+}
+
+.table th{
+    text-transform: capitalize;
+}
+
+.table td a{
+    color: #0030d5;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.final p{
+    font-size: 1.2rem;
+    color: #001428;
+    text-transform: capitalize;
+}
+.search form input{
+    font-family: "Cambria";
+}

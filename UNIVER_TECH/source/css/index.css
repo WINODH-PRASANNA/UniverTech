@@ -1,0 +1,113 @@
+body{
+    background: #0091ea;
+}
+
+.navbar{
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+    background: #001428;
+}
+
+.logo img{
+    display: block;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    animation: spin 5s linear infinite;
+}
+
+.items, .buttons{
+    display: flex;
+    gap: 30px;
+}
+
+.items li, .buttons li{
+    display: flex;
+}
+
+.items li a, .buttons li a{
+    color: #d4e2ff;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+ }
+
+.body{
+    display: flex;
+    padding: 0px 20px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h1{
+    color: #001428 ;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-top: 20px;
+    &:after{
+        content: '';
+        display: block;
+        width: 730px;
+        height: 5px;
+        background-color: #001428;
+        border-radius: 10px;
+    }
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+}
+
+.text p{
+    color: #001428;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-right: 50px;
+    font-weight: 600;
+}
+
+.btons{
+    display: flex;
+    gap: 50px;
+    padding: 80px 0px;
+}
+
+.btons a{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #becaf5;
+    font-weight: 600;
+    padding: 8px;
+    min-width: 200px;
+    background: #001428;
+    text-align: center;
+    border: 2px solid #001428;
+    border-radius: 10px;
+}
+
+.right{
+    display: flex;
+}
+
+.right img{
+    display: flex;
+    height: 600px;
+    width: 600px;
+}

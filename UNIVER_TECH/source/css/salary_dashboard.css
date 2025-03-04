@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    max-width: 100vh;
+    max-height: 100vh;
+    font-family: "Cambria";
+    color: #7d663c;
+    height: 100vh;
+    min-width: 100vw;
+}
+
+:root{
+    color: #7d663c;
+    background: #f5deb3;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+    background: #7d663c;
+    color: #f5deb3;
+    margin-bottom: 20px;
+}
+
+.nav h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.items{
+    display: flex;
+    gap: 50px;
+}
+
+.items li{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.items a{
+    color: #f5deb3;
+    font-weight: 600;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &:after{
+        content: '';
+        display: block;
+        width: 1000px;
+        height: 3px;
+        background-color: #7d663c;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+}
+
+.head .top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.head img{
+    height: 50px;
+    width: 50px;
+}
+
+.head h1{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.head .buttom{
+    display: flex;
+}
+
+.buttom p{
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.table h2{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.table table{   
+    background: #f5deb3;
+    border: 2px solid #7d663c;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+}
+
+.table td, th {
+    border: 2px solid #7d663c;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.table th{
+    text-transform: capitalize;
+    color: #4f3e20;
+}
+
+.table td a{
+    color: #d8971e;
+    text-transform: capitalize;
+    font-weight: 600;
+}

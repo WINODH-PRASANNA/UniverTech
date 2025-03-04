@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    max-width: 100vh;
+    max-height: 100vh;
+    font-family: "Cambria";
+    background: #fff;
+    color: #333;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.left{
+    display: flex;
+    margin-right: 30px;
+}
+
+.left img{
+    height: 590px;
+    width: 590px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    min-width: 560px;
+    padding: 10px;
+}
+
+.right h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: #7d663c;
+}
+
+.right h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.right form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-group label{
+    display: flex;
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #7d663c;
+}
+
+.input-group input{
+    display: flex;
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-family: "Cambria";
+    padding: 10px;
+    text-transform: none;
+    border-radius: 10px;
+    background: #f5deb3;
+    padding-left: 20px;
+    align-items: center;
+    color: #7d663c;
+    border: 1px solid #7d663c;
+}
+
+.btn{
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: "Cambria";
+    margin: 10px 0px;
+    text-transform: capitalize;
+    background: #f5deb3;
+    color: #7d663c;
+    transition: 0.5s all;
+    border-radius: 10px;
+    &:hover{
+        border: 2px solid #7d663c;
+    }
+}
+
+.btn a{
+    color: #7d663c;
+}
+
+.divider{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+}

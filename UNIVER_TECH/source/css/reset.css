@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    max-width: 100vw;
+    font-family: "Cambria", serif;
+    background: #0091ea;
+}
+
+::selection{
+    background: #becaf5;
+    color: #001428;
+}

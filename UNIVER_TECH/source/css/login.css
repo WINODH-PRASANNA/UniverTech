@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #d4e2ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    background-color: #0030d5;
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left .illustration {
+    width: 90%;
+    margin: 0 auto 1.5rem auto;
+    border-radius: 0px;
+    padding-top: 15px;
+}
+
+.right {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.right h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0030d5;
+    margin-bottom: 2.2rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.right h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #001428;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: -30px;
+}
+
+form {
+    width: 100%;
+    margin-top: -10px;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.input-group label {
+    font-size: 1.2rem;
+    color: #001428;
+    text-transform: capitalize;
+}
+
+.input-group input, select {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #001428;
+    font-family: "Cambria";
+    text-transform: capitalize;
+}
+
+.input-group .email{
+    text-transform: lowercase;
+}
+
+.input-group input::placeholder{
+    font-size: 1rem;
+    color: #001428;
+    font-family: "Cambria";
+    text-transform: capitalize;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #becaf5;
+    color: #001428;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Cambria";
+    transition: 0.5s;
+    text-transform: capitalize;
+}
+
+.btn a{
+    color: #001428;
+}
+
+.divider {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    color: #001428;
+}
