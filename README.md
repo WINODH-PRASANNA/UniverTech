@@ -34,7 +34,7 @@ Univer Tech is a web-based college management system that streamlines student an
    git clone https://github.com/WINODH-PRASANNA/UniverTech.git
    ```
 3. Move the project folder to `htdocs` (inside XAMPP directory).
-4. Open **phpMyAdmin** and create a database named `univer_tech`.
+4. Open **phpMyAdmin** and create a database named `student_management`.
 5. Import the `database.sql` file into the created database.
 6. Configure the database connection in `config.php`:
    ```php
