@@ -26,7 +26,6 @@ Univer Tech is a web-based college management system that streamlines student an
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: PHP
 - **Database**: MySQL (XAMPP Server)
-- **Frameworks & Libraries**:
 
 ## ⚡ Installation Guide
 1. Install [XAMPP](https://www.apachefriends.org/download.html) and start **Apache** and **MySQL**.
