@@ -38,19 +38,16 @@ Univer Tech is a web-based college management system that streamlines student an
 5. Import the `database.sql` file into the created database.
 6. Configure the database connection in `config.php`:
    ```php
-   $conn = new mysqli('localhost', 'root', '', 'univer_tech');
+   $conn = new mysqli('localhost', 'root', '', 'student_management');
    ```
 7. Open your browser and visit:
    ```
-   http://localhost/univer-tech/
+   http://localhost/UniverTech/
    ```
 
 ## 🔑 Default Admin Credentials
 - **Username**: `admin`
-- **Password**: `admin123`
-
-## 📸 Screenshots
-(Add screenshots of your project here if available)
+- **Password**: `admin`
 
 ## 🏆 Future Enhancements
 - Implement student fee management.
