@@ -1,6 +1,7 @@
 # Univer Tech - College Management System
 
-## 📌 Project Description
+![Tastee.lk Home Page](https://i.imgur.com/T3ZkGmK.png)
+
 Univer Tech is a web-based college management system that streamlines student and staff management. It allows administrators to manage courses, student registrations, and staff details while providing students with access to course information.
 
 ## 🚀 Features
